@@ -1,0 +1,13 @@
+.logo {
+    padding-top: 30px;
+    margin: auto;
+    width: 50%;
+}
+
+.logo__text {
+    text-transform: uppercase;
+    border: 3px solid #FF7C2F;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+}

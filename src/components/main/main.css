@@ -1,0 +1,37 @@
+.textarea {
+    width: 600px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.form {
+    margin: auto;
+    width: 50%;
+    padding-top: 70%;
+    display: flex;
+}
+
+.form__button {
+    background-color: #ff7b2f;
+    display: inline-block;
+    cursor: pointer;
+    color: #fafafa;
+    font-family: 'Lora', serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+}
+
+.form__button:hover {
+    background-color: #fd600c;
+}
+
+.form__button:active {
+    position: relative;
+    top: 1px;
+}
