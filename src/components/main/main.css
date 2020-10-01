@@ -1,5 +1,5 @@
 .textarea {
-    width: 600px;
+    min-width: 600px;
     height: 120px;
     border: 3px solid #cccccc;
     padding: 5px;
@@ -7,22 +7,33 @@
     background-repeat: no-repeat;
 }
 
+.main {
+    position: relative;
+    min-height: 700px;
+
+}
+
 .form {
-    margin: auto;
-    width: 50%;
-    padding-top: 70%;
-    display: flex;
+    position: absolute;
+    bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
 }
 
 .form__button {
+    min-width: 600px;
     background-color: #ff7b2f;
     display: inline-block;
     cursor: pointer;
     color: #fafafa;
     font-family: 'Lora', serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 1.375rem;
     padding: 16px 31px;
     text-decoration: none;
 }

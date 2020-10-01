@@ -1,18 +1,17 @@
 import React from "react";
 import "./main.css";
+import Post from "../post";
 
 const Main = () => {
   return (
-    <div>
+    <div className="main">
+      <Post />
       <form className="form">
         <textarea
           className="textarea"
-          name="styled-textarea"
-          id="styled"
-          onblur="setbg('white')"
-        >
-          Enter your comment here...
-        </textarea>
+          name="textarea"
+          placeholder="Enter your comment here..."
+        />
         <button className="form__button">post</button>
       </form>
     </div>
