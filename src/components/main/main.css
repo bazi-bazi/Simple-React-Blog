@@ -7,6 +7,15 @@
     background-repeat: no-repeat;
 }
 
+.titlearea {
+    min-width: 600px;
+    height: 50px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
 .main {
     position: relative;
     min-height: 700px;
@@ -46,3 +55,5 @@
     position: relative;
     top: 1px;
 }
+
+.main__post {}
