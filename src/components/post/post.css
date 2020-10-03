@@ -10,6 +10,11 @@
     display: flex;
 }
 
+.posts {
+
+    display: flex;
+}
+
 .post__date {
     padding-right: 10px;
     text-transform: uppercase;
@@ -23,6 +28,10 @@
     border-left: 1px solid #FAFAFA;
 }
 
+.post__contents {
+    padding-left: 20px;
+}
+
 .post__title {
     text-align: left;
     margin-bottom: 20px;
@@ -32,6 +41,9 @@
 
 .post__text {
 
+    text-align: left;
+    margin-bottom: 20px;
     text-transform: capitalize;
+    font-size: 2.25rem;
 
 }

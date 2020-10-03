@@ -1,15 +1,18 @@
 import React from "react";
+import { useSelector } from "react-redux";
+
+import Text from "./text";
 
 import "./post.css";
 
-const Post = ({ title, text }) => {
+const Post = () => {
+  let texts = useSelector((state) => state.text);
+  const listtext = texts.map((text) => (
+    <Text key={text.toString()} text={text} />
+  ));
   return (
     <div className="post">
-      <p className="post__date">04/11</p>
-      <div className="post__content">
-        <h3 className="post__title">{title}</h3>
-        <p className="post__text">{text}</p>
-      </div>
+      <div className="post__contents">{listtext}</div>
     </div>
   );
 };
