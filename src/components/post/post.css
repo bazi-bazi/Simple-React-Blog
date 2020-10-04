@@ -1,18 +1,24 @@
 .post {
     width: 700px;
+    height: 400px;
     position: absolute;
-    bottom: 300px;
+    bottom: 230px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     text-align: center;
     display: flex;
+    overflow: auto;
+
+
 }
 
 .posts {
 
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .post__date {
@@ -32,18 +38,13 @@
     padding-left: 20px;
 }
 
-.post__title {
-    text-align: left;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-    font-size: 2.25rem;
-}
+
 
 .post__text {
 
     text-align: left;
     margin-bottom: 20px;
     text-transform: capitalize;
-    font-size: 2.25rem;
+    font-size: 1.625rem;
 
 }

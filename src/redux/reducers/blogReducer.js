@@ -1,9 +1,9 @@
-import { ADD_TEXT, ADD_TITLE, ADD_DATE } from "../actions/blogactions";
+import { ADD_TEXT, ADD_LOGIN } from "../actions/blogactions";
 import { blogState } from "../state";
 
 let initialState = {
-  title: [],
   text: [],
+  login: true,
 };
 
 export const blogReducer = (state = initialState, action) => {
@@ -13,6 +13,13 @@ export const blogReducer = (state = initialState, action) => {
         ...state,
         text: [...state.text, action.payload],
       };
+      break;
+    case ADD_LOGIN:
+      return {
+        ...state,
+        login: !state.login,
+      };
+      break;
     default:
       return state;
   }

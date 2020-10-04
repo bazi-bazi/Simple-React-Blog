@@ -1,13 +1,7 @@
-export const ADD_TITLE = "ADD_TITLE";
 export const ADD_TEXT = "ADD_TEXT";
-export const ADD_DATE = "ADD_DATE";
+export const ADD_LOGIN = "ADD_DATE";
 
-export const addTitle = (title) => {
-  return {
-    type: ADD_TITLE,
-    payload: title,
-  };
-};
+
 
 export const addText = (text) => {
   return {
@@ -16,9 +10,8 @@ export const addText = (text) => {
   };
 };
 
-export const addDate = (date) => {
+export const addLogin = () => {
   return {
-    type: ADD_DATE,
-    payload: date,
+    type: ADD_LOGIN,
   };
 };

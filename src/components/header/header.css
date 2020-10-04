@@ -1,5 +1,6 @@
 .logo {
-    min-width: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     padding-top: 30px;
     justify-content: space-between;
@@ -8,19 +9,42 @@
 .logo__text {
     text-transform: uppercase;
     border: 3px solid #FF7C2F;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    font-size: 3rem;
     font-weight: 500;
 }
 
 .header {
-    display: flex;
-    padding-top: 50px;
+
+    padding-top: 10px;
 }
 
 .header p {
+    display: inline;
     padding: 10px;
-    margin-left: 30px;
+
     font-size: 1.5rem;
     text-transform: capitalize;
+}
+
+.header__posts {
+    display: inline;
+    font-weight: 700;
+    color: #FF7C2F;
+}
+
+.header__button {
+    margin-top: 20px;
+    margin-left: 30px;
+    min-width: 100px;
+    background-color: #fafafa;
+    display: inline-block;
+    cursor: pointer;
+    color: #FF7C2F;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.375rem;
+    padding: 16px 31px;
+    text-decoration: none;
 }
