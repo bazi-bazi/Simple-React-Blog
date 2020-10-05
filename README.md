@@ -1,3 +1,3 @@
 ## React Blog
 
-Created using Redux
+Blog is created using React and Redux.
